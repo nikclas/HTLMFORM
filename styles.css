@@ -1,7 +1,8 @@
 .flex-container{
-    display:flex;}
+    display:flex;
+margin-left: 30px;}
     
-    form{ width:1150px;
+    form{ width:1210px;
         border: 1px #CFCFCF solid ;
         border-radius: 5px;
         
@@ -26,25 +27,22 @@
      
      .warning{
         width:95%;
-        height:25px;
+        height:60px;
         border: 2pxpx #F6ADAD;
         background-color: #F8D4D4;
         margin-left: 30px;
         margin-top:20px;
         margin-bottom: 30px;
-        padding-bottom:40px;
-        text-align: center;
         border-radius: 5px;
         color: #B6313F;
         font-family: 'Courier New', Courier, monospace;
-        font-size: medium;
-        font-weight: 800;
+        font-size: small;
+        font-weight: 300;
         display:flex;
     }
-    h3{
-        margin-top:20px;
+    h6,strong{
+        padding-top:20px;
         margin-left:20px;    
-        position:relative;
     }
     .tarjeta{
         display:flex;
@@ -82,6 +80,7 @@
 
     .estado{
         margin-left: 35px;
+        height:10px;
     }
     .cpostal{
         margin-left: 35px;
@@ -108,7 +107,7 @@
     width:250px;
     height: 45px;px;
     display:flex;
-    margin-top: 15px;
+    margin-top: 20px;
     }
 
     .mastercard{
@@ -140,6 +139,7 @@
 
     i{
         margin-top:9px;
+        margin-left: 5px;
     }
 
     .fila3{
@@ -147,7 +147,10 @@
       
     }
     .mensaje{
-        margin-left:310px; 
+        margin-left:350px;
+        margin-top: -20px;
+      
+        
         
         
     }
@@ -183,6 +186,10 @@
         background-color: grey;
         color:white;
 
+    }
+
+    .tmensaje{
+      margin-top:-15px;
     }
   
 
